@@ -1,0 +1,28 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    /*Fondo*/
+    background: linear-gradient(rgba(34,34,34,0.75),rgba(44,62,80,.7)),url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: courier;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.content {
+    display: none;
+    margin-top: 20px;
+}
+
+.visible {
+    display: block;
+}

@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   body {
+    background: linear-gradient(rgba(34,34,34,0.75),rgba(44,62,80,.7)),url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: courier;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container {
+    margin-top: 20px; /* Ajusta este valor si necesitas más espacio entre la parte superior y el contenido */
+}
+
+.color1 {
+    background-color: #ff4444;
+}
+
+.color2 {
+    background-color: #33b5e5;
+}
+
+.color3 {
+    background-color: #8e44ad;
+}
+
+.color4 {
+    background-color: #2ecc71;
+}
+
+/* Estilos personalizados para los popovers */
+.popover {
+    color: #000; /* Cambia el color del texto a negro */
+}
+
+.logo{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
