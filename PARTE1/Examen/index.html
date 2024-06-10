@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTE I</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#!">
+                <h2>Bootstrap PARTE 1</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../../index.html" class="icon-home">
+                            <h6><span class="bx bx-home"></span> Inicio</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#GridSystem">
+                            <h6>Grid System</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Botones">
+                            <h6>Botones</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Formularios">
+                            <h6>Formularios</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Tabla">
+                            <h6>Tabla</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#NavBar">
+                            <h6>NavBar</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Modal">
+                            <h6>Modal</h6>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Multimedia">
+                            <h6>Multimedia</h6>
+                        </a></li>
+                    
+                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br id="Home"><br><br><!-- Header - set the background image for the header in the line below-->
+    <section class="py-5"><header class="py-5 bg-image-full header-large" style="background-image: url('Img/v5-new-logo.png')"></header></section>
+    
+        
+
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1>Boostrap</h1>
+                        <p class="mb-0">
+                            Bootstrap es un framework de desarrollo front-end open-source creado por el equipo de Twitter. Está diseñado para facilitar la creación de sitios web y aplicaciones web responsivas y móviles, utilizando una combinación de HTML, CSS y JavaScript. La versión más reciente, Bootstrap 5, elimina las dependencias de jQuery y ofrece un soporte mejorado para CSS personalizado.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Sistema de Grillas:</strong><br>
+                            El sistema de grillas de Bootstrap es uno de sus componentes más potentes. Utiliza un diseño de rejilla de 12 columnas que se ajusta automáticamente a diferentes tamaños de pantalla. Puedes combinar clases como <code>.col-</code> y <code>.col-md-</code> para definir cómo se distribuirá el contenido en diferentes dispositivos.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Componentes:</strong><br>
+                            Bootstrap incluye una amplia variedad de componentes predefinidos que se pueden integrar fácilmente en cualquier proyecto. Algunos de los componentes más utilizados incluyen:
+                            <ul>
+                                <li><strong>Botones:</strong> Clases como <code>.btn</code> y <code>.btn-primary</code> permiten crear botones con estilos consistentes.</li>
+                                <li><strong>Formularios:</strong> Bootstrap proporciona estilos para formularios, incluyendo clases para controles de formulario, etiquetas y validación de formularios.</li>
+                                <li><strong>Tarjetas:</strong> Las tarjetas son contenedores flexibles y extensibles que pueden contener una variedad de contenido.</li>
+                                <li><strong>Modales:</strong> Los modales son ventanas emergentes que se pueden usar para diálogos, alertas o formularios.</li>
+                                <li><strong>Navbars:</strong> Las barras de navegación responsivas se pueden crear usando las clases <code>.navbar</code> y <code>.navbar-expand-</code>.</li>
+                                <li><strong>Alertas:</strong> Mensajes de alerta con clases como <code>.alert</code> y <code>.alert-warning</code> para mostrar información importante al usuario.</li>
+                            </ul>
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Utilidades:</strong><br>
+                            Bootstrap también ofrece una amplia gama de utilidades para espaciado, alineación, colores, sombras y más. Estas utilidades permiten aplicar estilos específicos a elementos HTML sin necesidad de escribir CSS personalizado.
+                            <ul>
+                                <li><strong>Espaciado:</strong> Clases como <code>.m-3</code> y <code>.p-3</code> se utilizan para añadir márgenes y relleno a los elementos.</li>
+                                <li><strong>Alineación:</strong> Clases como <code>.text-center</code> y <code>.align-items-center</code> ayudan a centrar el texto y alinear los elementos.</li>
+                                <li><strong>Colores:</strong> Clases para colores de fondo y texto como <code>.bg-primary</code> y <code>.text-secondary</code>.</li>
+                                <li><strong>Sombras:</strong> Clases como <code>.shadow</code> y <code>.shadow-lg</code> añaden sombras a los elementos para darles profundidad.</li>
+                            </ul>
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>JavaScript:</strong><br>
+                            Bootstrap incluye una biblioteca de JavaScript que proporciona componentes interactivos como modales, pestañas, tooltips, popovers, alertas y carousels. Estos componentes se pueden activar mediante atributos de datos (data attributes) o usando una API JavaScript.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Personalización:</strong><br>
+                            Una de las características más poderosas de Bootstrap es su capacidad de personalización. Puedes descargar Bootstrap y modificar las variables SASS para cambiar los colores, tipografías, tamaños y otros aspectos del diseño. Bootstrap también incluye un generador de temas que permite personalizar el aspecto visual de los componentes.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Documentación y Comunidad:</strong><br>
+                            Bootstrap tiene una documentación extensa y bien organizada que facilita a los desarrolladores aprender y utilizar el framework. Además, cuenta con una comunidad activa que contribuye con tutoriales, temas y soporte en foros y redes sociales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="py-5" id="GridSystem">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Grid System</h2>
+                        <p class="mb-0">
+                            El sistema de grillas de Bootstrap es una de las características más potentes y flexibles del framework. Permite crear diseños responsivos utilizando un contenedor y una serie de filas y columnas.
+                        </p><br>
+                        <p class="mb-0">
+                            El sistema de grillas de Bootstrap se basa en un diseño de 12 columnas. Esto significa que puedes dividir el contenedor en hasta 12 partes iguales, y combinar columnas para crear diseños de cualquier tamaño. Las clases de columna utilizan el prefijo <code>.col-</code> seguido por el número de columnas que debe ocupar un elemento.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Contenedores:</strong><br>
+                            Los contenedores proporcionan un medio para alinear correctamente el contenido en el diseño. Bootstrap ofrece dos tipos de contenedores:
+                            <ul>
+                                <li><code>.container</code>: Un contenedor fijo con un ancho máximo en cada punto de interrupción (breakpoint).</li>
+                                <li><code>.container-fluid</code>: Un contenedor de ancho completo, que abarca el 100% del ancho de la ventana del navegador.</li>
+                            </ul>
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Filas:</strong><br>
+                            Las filas (<code>.row</code>) son necesarias para crear columnas. Se utilizan dentro de los contenedores para agrupar las columnas y garantizar el alineamiento adecuado.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Columnas:</strong><br>
+                            Las columnas se crean dentro de las filas y se definen utilizando clases como <code>.col-</code>. Bootstrap incluye clases de columnas para cada punto de interrupción de diseño responsivo:
+                            <ul>
+                                <li><code>.col-</code>: Para dispositivos extra pequeños (ancho menor a 576px).</li>
+                                <li><code>.col-sm-</code>: Para dispositivos pequeños (576px y mayores).</li>
+                                <li><code>.col-md-</code>: Para dispositivos medianos (768px y mayores).</li>
+                                <li><code>.col-lg-</code>: Para dispositivos grandes (992px y mayores).</li>
+                                <li><code>.col-xl-</code>: Para dispositivos extra grandes (1200px y mayores).</li>
+                            </ul>
+                        </p>
+                        <h4>Demo Grid System</h4>
+                        <div id="demo-content"></div> <br>
+                        <button class="btn btn-dark show-btn" id="showContentButton">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="hideContentButton">Ocultar Contenido</button><br>
+                        <script src="Script/hide1.js"></script>
+                        <h4>Demo Desplazar columnas</h4>
+                        <div id="demo-content2"></div> <br>
+                        <button class="btn btn-dark show-btn" id="SContentButton">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HContentButton">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide2.js"></script>
+
+                        <h4>Demo Ocultar Columnas</h4>
+                        <div id="demo-content3"></div>
+                        <br>
+                        <button class="btn btn-dark show-btn" id="ShContentButton">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HiContentButton">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide3.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="py-5" id="Botones">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Botones</h2>
+                        <p class="mb-0">
+                            Los botones en Bootstrap son elementos versátiles que pueden ser utilizados en formularios, diálogos, y otros componentes interactivos. Bootstrap proporciona una amplia variedad de estilos de botones que se pueden aplicar mediante clases predefinidas.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Clases de Botones:</strong><br>
+                            Bootstrap ofrece varias clases de botones para diferentes propósitos y niveles de importancia. Aquí están las clases básicas que puedes utilizar:
+                            <ul>
+                                <li><code>.btn</code>: Clase base para todos los botones.</li>
+                                <li><code>.btn-primary</code>: Botón de acción principal, generalmente usado para acciones importantes.</li>
+                                <li><code>.btn-secondary</code>: Botón de acción secundaria.</li>
+                                <li><code>.btn-success</code>: Botón utilizado para indicar una acción exitosa.</li>
+                                <li><code>.btn-danger</code>: Botón utilizado para advertencias o acciones destructivas.</li>
+                                <li><code>.btn-warning</code>: Botón utilizado para advertencias.</li>
+                                <li><code>.btn-info</code>: Botón utilizado para información general.</li>
+                                <li><code>.btn-light</code>: Botón con estilo claro, adecuado para fondos oscuros.</li>
+                                <li><code>.btn-dark</code>: Botón con estilo oscuro, adecuado para fondos claros.</li>
+                                <li><code>.btn-link</code>: Botón estilizado como un enlace, ideal para acciones menos importantes.</li>
+                            </ul>
+                        </p><br>
+                        <h4>Demo Botones Ej 1</h4>
+                        <div id="demo-content4"></div> <br>
+                        <button class="btn btn-dark show-btn" id="ShoContentButton">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HidContentButton">Ocultar Contenido</button><br>
+                        <script src="./Script/hide4.js"></script>
+                        <h4>Demo Botones Ej 2</h4>
+                        <div id="demo-content5"></div> <br>
+                        <button class="btn btn-dark show-btn" id="Button5">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton5">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide5.js"></script>
+
+                        <h4>Demo Botones Ej 3</h4>
+                        <div id="demo-content6"></div>
+                        <br>
+                        <button class="btn btn-dark show-btn" id="Button6">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton6">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide6.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        
+        <section class="py-5" id="Formularios">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+
+                        <h2>Formularios con Bootstrap</h2>
+                        <p class="mb-0">
+                            Bootstrap simplifica la creación y el diseño de formularios en páginas web mediante el uso de clases predefinidas. Estas clases permiten mejorar la apariencia y la funcionalidad de los formularios, haciéndolos más atractivos y fáciles de usar.
+                        </p>
+                        <br>
+                        <p class="mb-0">
+                            <strong>Clases Básicas:</strong><br>
+                            - <code>.form-group:</code> Esta clase se utiliza para agrupar etiquetas <code>&lt;label&gt;</code> y elementos de formulario, como <code>&lt;input&gt;</code> o <code>&lt;select&gt;</code>. Ayuda a organizar y alinear correctamente los elementos del formulario.<br>
+                            - <code>.form-control:</code> Esta clase se aplica a elementos de formulario como <code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, y <code>&lt;textarea&gt;</code>. Proporciona estilos de borde, relleno y tamaño uniformes para estos elementos, creando un aspecto coherente en todo el formulario.<br>
+                            - <code>.btn:</code> Esta clase se utiliza para estilizar los botones en el formulario. Proporciona un aspecto atractivo y uniforme a los botones, haciéndolos más fáciles de identificar y utilizar.
+                        </p>
+                        
+
+
+                        <h4>Demo</h4>
+                        <div id="demo-content7"></div> <br>
+                        <button class="btn btn-dark show-btn" id="Button7">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton7">Ocultar Contenido</button><br>
+                        <script src="./Script/hide7.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="py-5" id="Tabla">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Tabla</h2>
+                        <p class="mb-0">
+                            Bootstrap proporciona una serie de clases predefinidas que facilitan la creación y estilización de tablas en una página web. Estas clases ayudan a mejorar la apariencia y la funcionalidad de las tablas, haciéndolas más atractivas y fáciles de usar.
+                        </p><br>
+                        <p class="mb-0">
+                            <strong>Clases Básicas:</strong><br>
+                            - <code>.table</code>: Esta es la clase base que se debe añadir a cualquier tabla para aplicarle los estilos de Bootstrap.
+                        </p>
+                        <h4>Demo Tabla con Boostrap</h4>
+                        <div id="demo-content8"></div> <br>
+                        <button class="btn btn-dark show-btn" id="Button8">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton8">Ocultar Contenido</button><br>
+                        <script src="./Script/hide8.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        
+        <section class="py-5" id="NavBar">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>NavBar</h2>
+                        <p class="mb-0">
+                            Bootstrap ofrece una barra de navegación totalmente personalizable y responsiva, conocida como NavBar. Esta barra de navegación puede contener enlaces, formularios, texto, y otros elementos de navegación, y se adapta automáticamente a diferentes tamaños de pantalla.
+                        </p><br>
+                        
+                        <p class="mb-0">
+                            <strong>Estructura Básica:</strong><br>
+                            La estructura básica de una NavBar comienza con un contenedor <code>&lt;nav&gt;</code> con la clase <code>.navbar</code>. Dentro de este contenedor, puedes añadir varios elementos como enlaces y botones.
+                        </p>
+                        <div id="demo-content9"></div> <br>
+                        <button class="btn btn-dark show-btn" id="Button9">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton9">Ocultar Contenido</button><br>
+                        <script src="./Script/hide9.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="py-5" id="Modal">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Modal</h2>
+                        <p class="mb-0">
+                            Los modales en Bootstrap son ventanas emergentes que se superponen en la página principal para mostrar contenido adicional, como mensajes, formularios o imágenes. Estas ventanas emergentes son útiles para interactuar con el usuario sin necesidad de redireccionar a otra página.
+                        </p>
+                        <br>
+                        <p class="mb-0">
+                            <strong>Componentes Principales:</strong><br>
+                            - <code>.modal:</code> Esta es la clase base que se utiliza para crear un modal en Bootstrap. Define las propiedades básicas del modal, como el tamaño, la posición y el efecto de animación.<br>
+                            - <code>.modal-dialog:</code> Esta clase define el contenedor del modal y establece su anchura. Se utiliza para controlar el tamaño del modal, como pequeño, mediano o grande.<br>
+                            - <code>.modal-content:</code> Esta clase se utiliza para definir el contenido del modal, incluyendo el encabezado, el cuerpo y el pie. Ayuda a estructurar y organizar el contenido dentro del modal.<br>
+                            - <code>.modal-header:</code> Esta clase se utiliza para agregar un encabezado al modal. Puede contener un título y un botón para cerrar el modal.<br>
+                            - <code>.modal-body:</code> Esta clase se utiliza para agregar el contenido principal al modal. Puede contener texto, formularios, imágenes u otros elementos HTML.<br>
+                            - <code>.modal-footer:</code> Esta clase se utiliza para agregar un pie de página al modal. Puede contener botones u otros elementos de acción para interactuar con el contenido del modal.
+                        </p>
+                        <div id="demo-content10"></div> <br>
+                        <button class="btn btn-dark show-btn" id="Button10">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton10">Ocultar Contenido</button><br>
+                        <script src="./Script/hide10.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="py-5" id="Multimedia">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1>Multimedia</h1>
+
+                        <h2>Glyphicon proporcionados por Bootstrap 3</h2>
+                        <p>-Visualizamos los glyphicon  con las clases "glyphicon glyphicon-*" donde " * " es el tipo de glyphicon; nosotros usamos "user", "book", "signal", "hdd" y "fire". Para nuestro ejemplo visualizaremos los glyphicon utilizando la etiqueta "span" y agregando sus respectivas clases.</p>
+                        <div id="demo-content11"></div> <br>
+                        <button class="btn btn-dark show-btn" id="Button11">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton11">Ocultar Contenido</button><br>
+                        <script src="./Script/hide11.js"></script>
+
+                        <br>
+
+                        <h2>Tamaño y color a los Glyphicon</h2>
+                        <p>-Para cambiar el tamaño y color a los glyphicon es necesario aplicar estilos, para eso vamos a la hoja de estilos main.css y creamos las clases "app", "icon-color1", "icon-color2", "icon-color3", "icon-color4" y "icon-color5". A la clase "app" le agregamos un "font-size:50px" para darle un tamaño de 50 pixeles "padding-bottom: 10px;" para separarlos un poco de los demas elementos; a las demás clases le agregamos "color:#xxxxxx" y le definimos a cada uno un color.</p>
+
+
+                        
+                        <div id="demo-content12"></div>
+                        <br>
+                        <button class="btn btn-dark show-btn" id="Button12">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton12">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide12.js"></script>
+
+                        <br>
+
+                        <h1>Personalización de Glyphicon con CSS - PARTE I</h1>
+			            <p>Al ser los Glyphicon's considerados texto, podemos realizar cambios en sus estilos 
+                        como cambiar tamaño, cambiar color, colocarle un color de fondo, rotarlo, colocarle 
+                        sombras y muchas cosas más en CSS3.</p>
+
+                        
+                        <div id="demo-content13"></div>
+                        <br>
+                        <button class="btn btn-dark show-btn" id="Button13">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton13">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide13.js"></script>
+
+                        <br>
+
+                        <h1>Descargar e insertar glyphicon externos - PARTE II</h1>
+                        <p>Podemos descargar e insertar glyphicon que nosotros obtegamos de deferentes fuentes, Nosotros le proporcionamos un ejemplo y todos los pasos a seguir:</p>
+                        <p>
+                            <li>Visitar la página <a href="http://icomoon.io/app/#/select" target="_blank">http://icomoon.io/app/#/select.</a></li>
+                            <li>Damos clic en el botón "font" y finalmente en el bootón "Dowload".</li>
+                            <li>Descomprimimos el archivo.</li>
+                            <li>Copiamos los archivos dentro de la carpeta "fond" de nuestros archivos ddescargados y los llevamos a la carpeta "fond" de nuestro proyecto.</li>
+                            <li>Copiamos el archivo "style" y lo copiamos dentro de la carpeta "css" de nuestro proyecto y lo cambiamos de nombre por "iconbar".</li>
+                            <li>En nuestro sublimetext abrimos el archivo icon bar.</li>
+                            <li>Modificaremos la ruta de los Glyphicon en cada URL ateponiendo " ..// "</li>
+                            <li>Y para finalizar, en el archivo HTML en lazaremos nuestra hoja de estilo "css/iconbar.css"</li>	
+                        </p>
+                        <p>Evitar declarar clases con que comiencen con "icon-" en nuestro "main.css" ya que habrá un conflicto con la hoja de estilo "iconbar.css".</p>
+
+                        <br>
+                        
+                        <div id="demo-content14"></div>
+                        <br>
+                        <button class="btn btn-dark show-btn" id="Button14">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton14">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide14.js"></script>
+
+                        <br>
+
+                        <h1>Glyphicon en Botones y formularios - PARTE III</h1>
+			            <p>También podemos insertar glyphicon dentro de botones y formularios para que el visitante a nuestra página tenga una mejor idea de lo que se puede hacer o cómo puede hacerlo. Colocamos ua etiqueta "span" dentro de botón o input, según sea el caso con el glyphicon que mejor se adapte a nuestra necesidaad. Esto nos permite hacer nuestra página más optimizada a comparación de insertarle imagenes.</p>
+
+                        
+                        <div id="demo-content15"></div>
+                        <br>
+                        <button class="btn btn-dark show-btn" id="Button15">Cargar Contenido</button>
+                        <button class="btn btn-dark show-btn" id="HButton15">Ocultar Contenido</button><br>
+
+                        <script src="./Script/hide15.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="./Script/scripts.js"></script>
+</body>
+
+</html>

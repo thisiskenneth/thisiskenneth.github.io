@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplazar columnas</title>
+
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Ocultar columnas</h2>Para ocultar columnas por un tema de espacio o por otro motivo, tenemos la clase "hidden-*". Donde " * " representa la clase para cada resolución de pantalla. En este ejemplo ocultaremos la columna 2 cuando estemos en una resolución de celular "xs", y la tercera, se ocultará, cuando estemos en una resolución de tablet "sm". <br>
+        NOTA: Tener en cuenta que las columnas que no son ocultadas tienen que tener valores que sumen las 12 grillas.
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-sm-4 col-md-4 col-lg-4 rojo">
+                <h3>Columna 1</h3>
+                Columna que estará todo el tiempo en el navegador... <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+            </div>
+            <div class="d-none d-sm-block col-sm-8 col-md-4 col-lg-4 verde">
+                <h3>Columna 2</h3>
+                Se ocultará cuando la pantalla tenga una resolución de celular "xs"... <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+            </div>
+            <div class="col-4 d-none d-md-block col-lg-4 azul">
+                <h3>Columna 3</h3>
+                Se ocultará cuando la pantalla tenga una resolución de tablet "sm"... <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+            </div>
+        </div>
+    </div>
+</body>
+</html>
